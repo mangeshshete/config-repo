@@ -1,11 +1,2 @@
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/mangeshshete/config-repo 
-  application:
-    name: config-server
-
-server:
-  port: 6688
+service:
+  name: Service A
